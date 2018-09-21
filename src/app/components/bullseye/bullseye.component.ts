@@ -17,7 +17,7 @@ export class BullseyeComponent implements OnInit, AfterViewInit {
 	mouseCoords$: Observable<any>;
 
 	radius = 50;
-	blinkInterval = 1000;
+	blinkInterval = 600;
 	totalPoints = 0;
 
 	constructor(private element: ElementRef) {}
